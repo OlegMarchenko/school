@@ -1,0 +1,30 @@
+.card-news {
+    flex-basis: 350px;
+    height: 400px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.news-avatar {
+    height: 190px;
+    max-width: 350px;
+    overflow: hidden;
+    background: #959595;
+    img {
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+.news-description {
+    padding: 30px;
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+}
+.card-news .date {
+    margin-bottom: 24px;
+}
+.card-news .name {
+    margin-bottom: 18px;
+}

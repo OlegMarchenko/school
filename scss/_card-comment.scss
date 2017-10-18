@@ -1,0 +1,49 @@
+.card-comment {
+    width: 100%;
+    height: 380px;
+    padding: 25px;
+}
+.card-comment_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.11);
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background: url("../img/circle2.png") no-repeat;
+        width: 92px;
+        height: 110px;
+        top: 25px;
+        right: 40px;
+    }
+}
+.comment-avatar {
+    width: 100px;
+    height: 100px;
+    background: #959595;
+    border-radius: 50%;
+    margin-right: 50px;
+    overflow: hidden;
+}
+.comment-description {
+    max-width: 700px;
+}
+.read {
+    color: #757575;
+}
+.read:hover {
+    color: $primary-color;
+}
+.comment-description .description {
+    margin-bottom: 40px;
+}
+.section-comment .btn-inverse {
+    margin: auto;
+    margin-top: 100px;
+}
+.comment-description-flex {
+    display: flex;
+}

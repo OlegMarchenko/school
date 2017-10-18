@@ -1,0 +1,116 @@
+.navbar-toggler {
+    display: none;
+}
+.bg {
+    background: $bg-blue;
+}
+.bg-photo {
+    background: url('../img/bg_header.jpg') no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.bg-blue {
+    background: rgba(12, 29, 81, 0.8);
+}
+header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.flex-menu {
+    display: flex;
+    li {
+        list-style-type: none;
+        padding-left: 30px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover,
+    .active {
+        padding-bottom: 9px;
+        border-bottom: 1px solid $primary-color;
+    }
+}
+.flex-header-holder {
+    position: relative;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    padding: 40px 0 90px 0;
+}
+.header-btn {
+    display: flex;
+    margin-bottom: 120px;
+}
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+}
+h1 {
+    margin: 0;
+}
+.header-title_l {
+    max-width: 787px;
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+    line-height: 1.1;
+    margin: 31px 0 40px 0;
+    position: relative;
+}
+.header-title_l:before {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 1px;
+    background: $primary-color;
+    left: -110px;
+    top: 35px;
+}
+.header-title_xxs {
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    ;
+}
+.header-title_xs {
+    max-width: 485px;
+    color: rgba(255, 255, 255, 0.6);
+    ;
+    font-size: 16px;
+    margin-bottom: 70px;
+    font-weight: 400;
+}
+.header-numbers {
+    width: 100px;
+    color: white;
+    padding-right: 0;
+    margin-right: -10px;
+}
+.number {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.number_title {
+    font-size: 14px;
+    margin-right: 0;
+    color: rgba(255, 255, 255, 0.6);
+    ;
+}
+.numbers_margin {
+    margin-bottom: 56px;
+}
+header .btn-primary {
+    margin-right: 30px
+}

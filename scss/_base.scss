@@ -1,0 +1,95 @@
+$bg-blue: #0c1d51;
+$primary-color: #f8ba0a;
+$border-title-blue: #6b8fee;
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1206px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.section {
+  margin-bottom: 130px;
+}
+
+.big-title {
+  font-size: 36px;
+  margin-left: 110px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.big-title:before {
+  position: absolute;
+  content: '';
+  width: 70px;
+  height: 1px;
+  background: #6b8fee;
+  left: -110px;
+  top: 20px;
+}
+
+.big-title_inverse {
+  font-size: 36px;
+  margin-left: 110px;
+  position: relative;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.big-title_inverse:before {
+  position: absolute;
+  content: '';
+  width: 70px;
+  height: 1px;
+  background: $primary-color;
+  left: -110px;
+  top: 20px;
+}
+
+.small-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-bottom: 18px;
+}
+
+.small-title_inverse {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 7px;
+  margin-bottom: 18px;
+  color: white;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.description-inverse {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);;
+}
+
+.container-carousel {
+  max-width: 1236px;
+  margin: 0 auto;
+}

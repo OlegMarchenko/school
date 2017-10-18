@@ -1,0 +1,66 @@
+.btn-primary {
+    background: $primary-color;
+    border: 1px solid $primary-color;
+    width: 270px;
+    height: 56px;
+    border-radius: 28px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 17px;
+    transition: .2s all;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+.btn-primary:hover {
+    background: none;
+    cursor: pointer;
+    a {
+        color: white;
+    }
+}
+.btn-inverse {
+    border: 1px solid $primary-color;
+    width: 270px;
+    height: 56px;
+    border-radius: 28px;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s all;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+.btn-inverse:hover {
+    background: $primary-color;
+    cursor: pointer;
+}
+.btn-white {
+    border: 1px solid white;
+    width: 270px;
+    height: 56px;
+    border-radius: 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s all;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+.btn-white:hover {
+    border: 1px solid $primary-color;
+    cursor: pointer;
+    a {
+        color: $primary-color;
+    }
+}

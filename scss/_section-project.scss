@@ -1,0 +1,29 @@
+.section-project .bg-img {
+    padding: 60px 0;
+}
+.section-project {
+    .bg {
+        background: url("../img/section_project.jpg") no-repeat;
+        background-size: cover;
+    }
+}
+.project-description {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project-elem {
+    max-width: 350px;
+    display: flex;
+}
+.svg {
+    min-width: 68px;
+    width: 68px;
+    margin-right: 20px;
+}
+.section-project h4 {
+    margin-top: 0;
+}
+.section-project .big-title_inverse {
+    margin-top: 0;
+}
